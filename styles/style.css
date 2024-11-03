@@ -74,7 +74,6 @@
 }
 
 .header__theme-menu-button {
-  appearance: none;
   border: 1px solid transparent;
   padding: 2px 13px 5px;
   color: var(--decor-color);
@@ -83,6 +82,7 @@
   line-height: 100%;
   text-transform: lowercase;
   background-color: transparent;
+  appearance: none;
 }
 
 .header__theme-menu-button:hover {
