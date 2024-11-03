@@ -27,20 +27,18 @@
     --accent-color: #ff8dcb;
   }
 
-  .page.theme_auto {
-    .header__decor {
-      display: none;
-    }
+  .header__decor {
+    display: none;
   }
 }
 
 @media (width <= 768px) {
   @media (prefers-color-scheme: light) {
-    .page.theme_auto {
+    :root {
       --main-title-shadow: #ff8dcb;
     }
   }
-  
+
   .page.theme_light {
     --main-title-shadow: #ff8dcb;
   }
