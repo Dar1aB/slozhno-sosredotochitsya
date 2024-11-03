@@ -1,5 +1,5 @@
 .page {
-  /**padding-inline: var(--main-clamp);**/
+  padding-inline: var(--main-clamp);
   color: var(--text-color);
   background-color: var(--bg-color);
   background-image: var(--bg-image);
